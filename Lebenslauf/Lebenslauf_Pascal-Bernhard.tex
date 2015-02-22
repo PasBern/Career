@@ -1,0 +1,233 @@
+\documentclass[11pt,a4paper,titlepage]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[english,ngerman]{babel}
+\usepackage[ansinew]{inputenc}                   % replace by the encoding you are using
+
+\renewcommand{\familydefault}{\sfdefault}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{graphicx}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+
+%----------------------------------------------------------------------------------
+%            Kontaktdaten
+%----------------------------------------------------------------------------------
+% VORNAME
+\firstname{Pascal}
+% NACHNAME
+\familyname{Bernhard}
+%TITEL (optional, ggf. einfach die Zeile löschen!)
+\title{Lebenslauf}    
+%ADRESSE  (optional, ggf. einfach die Zeile löschen!)
+\address{Schwalbacher Straße 7}{12161 Berlin}
+%HANDYNUMMER  (optional, ggf. einfach die Zeile löschen!)
+\mobile{+49 162 / 32 39 557} 
+%FESTNETZNUMMER  (optional, ggf. einfach die Zeile löschen!)
+%\phone{+49 30 / 32 66 58 00}
+%EMAIL-ADRESSE  (optional, ggf. einfach die Zeile löschen!)
+\email{pascal.bernhard@rppr.de} 
+%HOMEPAGE  (optional, ggf. einfach die Zeile löschen!)
+%\homepage{www.secunergy.com}
+%FOTO  (optional, ggf. einfach die Zeile löschen!)
+%  64pt = Höhe des Bildes, 'picture' = Name des Bildes
+\photo[120pt]{sepia}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%Spaltenbreite von \cvline ändern:
+\renewcommand*{\cvlanguage}[3]{%
+\cvline{#1}{\begin{minipage}[t]{.225\maincolumnwidth}\textbf{#2}\end{minipage}%
+\hfill%
+\begin{minipage}[t]{.725\maincolumnwidth}\raggedleft\footnotesize\it shape #3\end{minipage}%
+}
+}
+
+%Spaltenbreite von \cvline ändern - zweiter Versuch
+\setlength{\hintscolumnwidth}{3.5cm} 
+
+
+%----------------------------------------------------------------------------------
+%            Inhalt
+%----------------------------------------------------------------------------------
+\begin{document}
+
+
+    \vspace*{\fill}
+    
+      \maketitle
+      \section{Zu meiner Person}
+	\cvline{Geboren}{am 08.04.1982 in Berlin}
+	\cvline{Hochschulabschluss}{Diplom-Politologe}
+	\cvline{Auslandserfahrung} {USA (2 Jahre) \& Frankreich (3 Jahre)}
+	\cvline{Sprachkenntnisse}{Englisch \& Französisch (verhandlungssicher)}
+	\cvline{IT-Kenntnisse}{Linux, Office-Suite, Content Management Systeme (Contao, Joomla), LaTeX}
+
+    \vspace*{\fill}
+
+
+
+\newpage
+
+
+
+\section{Studium}
+
+\subsection{Hauptstudium "`Politikwissenschaft"'}
+\cvline{ab 10/2010 - 6/2014} {an der FU Berlin}
+\cvline{13.06.2014}{Diplom \emph{Note: 1,3}}
+
+
+\subsection{Hauptstudium "`Master Finance et Stratégie"'}
+\cvline{9/2007 - 8/2009}{an Science Po Paris}
+
+
+\subsection{Hauptstudium "`Politikwissenschaft"'}
+\cvline{10/2006 - 8/2007}{an der FU Berlin}
+
+
+\subsection{Grundstudium "`Politikwissenschaft"'}
+\cvline{10/2003 - 9/2005}{an der FU Berlin}
+\cvline{10.06.2005}{Vordiplom} %\emph{Note: 1,6}
+%\cvline{Titel}{\emph{Transformationsprozesse in Lettland}}
+%\cvline{Betreuer}{Prof. Dr. Manfred Kerner}
+
+
+\section{Promotion}
+\cvitem{Thema}{\emph{Implementierung nationaler Kapazitätsmechanismen und ihre Integration ein einen gemeinsamen Europäischen Energiemarkt}}
+\cvitem{Inhalt}{Kapazitätsmärkte in der Europäischen Union bei unterschiedlichem Energy-Mix: Wie reagieren politische Systeme auf die Herausforderungen durch den steigenden Anteil erneuerbarer Energien an der Stromversorgung? Wie können angesichts national sehr unterschiedlicher Energiemärkte die entstehenden Kapazitätsmechanismen auf europäischer Ebene integriert werden?}
+
+\section{Diplomarbeit}
+\cvitem{Thema}{\emph{Energie-Versorgungssicherheit der Baltischen Staaten}}
+%\cvitem{Gutachter}{Prof. Dr. Miranda Schreurs \& Prof. Dr. Manfred Kerner}
+\cvitem{Inhalt}{Die Umsetzung des 3. Liberalisierungspakets der EU zum Gasbinnenmarkt in Litauen und Lettland: Weshalb wurden in den beiden baltischen Ländern unterschiedliche Unbundling-Modelle gewählt zur Entflechtung der vertikalen Besitzstrukturen aus dem Gasmarkt?}
+\cvitem{Note}{1,0}
+
+
+\section{Beruflicher Werdegang}
+
+\cventry{seit 7/2014}{Doktorand}{Freie Universität}{Berlin}{}{Promotion. %\newline{}%
+\begin{itemize}%
+\item Analysen politischer Entscheidungen und ihrer Konsequenzen für den ÖPNV-Sektor
+\item Recherche für Marktstudien
+\item Erstellung von Präsentationen für Kundentermine
+\end{itemize}}
+
+%\cventry{seit 6/2013}{Coach}{Selbständig}{Berlin}{}{Begleitung von Studenten bei wissenschaftlichen Arbeiten.\newline{}%
+%Aufgabenbereiche:%
+%\begin{itemize}%
+%\item Entwicklung wissenschaftlicher Fragestellungen für Bachelor- \& Masterarbeiten
+%\item Konzeptarbeit für Forschungsdesigns \& Auswahl der Forschungsvariablen
+%\item Unterstützung bei wissenschaftlicher Arbeitsmethodik
+%\item Coaching zu Selbstmotivation
+%\end{itemize}}
+
+\cventry{6/2011 - 5/2013}{Werkstudent}{Unternehmensberatung SCI Verkehr GmbH}{Berlin}{}{Marktanalysen \& Recherchen. %\newline{}%
+\begin{itemize}%
+\item Analysen politischer Entscheidungen und ihrer Konsequenzen für den ÖPNV-Sektor
+\item Recherche für Marktstudien
+\item Erstellung von Präsentationen für Kundentermine
+\end{itemize}}
+
+%\cventry{1/2011 - 4/2011}{Werkstudent}{hiogi GmbH}{Berlin}{}{Werkstudent bei Startup-Unternehmen.\newline{}%
+%\begin{itemize}%
+%\item Auswertung von Nutzer-Bewertungen
+%\item Sekretariatsarbeiten
+%\item Informationsaustausch und Kontakt mit Nutzer-Community
+%\end{itemize}}
+
+
+%\cventry{10/2010 - 1/2011}{Praktikum}{Jean-Monnet Centre for European Integration}{Berlin}{}{Mitarbeit am EU-Forschungsprojekt \textsl{The Political Economy of EuroMed Governance}.\newline{}%
+%Aufgabenbereiche:%
+%\begin{itemize}%
+%\item Datenrecherche, Verfassen von Länderberichten, Vorbereitung von Vorträgen und Konferenzen
+%\item Vorbereitung von Konferenzen \& Erstellen von Präsentationen
+%\item Sekretariatsarbeiten: Korrespondenz, Dokumentenverwaltung
+%\end{itemize}}
+
+
+\cventry{5/2009 - 8/2010}{Assistant Policy Advisor Europe}{American Chamber of Commerce}{Paris}{}{Marktanalysen \& Kundenbetreuung. %\newline{}%
+\begin{itemize}%
+\item Eigenständige Erstellung von Marktstudien zur Privatisierung von Infrastruktur \& Utilities in Frankreich
+\item Betreuung von Kunden bei Verhandlungen mit französischer Verwaltung
+\item Öffentlichkeitsarbeit
+\end{itemize}}
+
+
+\cventry{7/2008 - 4/2009}{Praktikant}{American Chamber of Commerce}{Paris}{}{Marktanalysen \& Kundenbetreuung. %\newline{}%
+\begin{itemize}%
+\item Mitarbeit an Analysen des französischen Infrastrukturmarktes
+\item Öffentlichkeitsarbeit
+\item Unterstützung bei Kundenpräsentationen
+\item Organisatorische Vorbereitung von Konferenzen
+\end{itemize}}
+
+\cventry{3/2005 - 9/2005}{Praktikum}{Wissenschaftszentrum für Sozialforschung Berlin (WZB)}{Berlin}{}{Unterstützung bei Datenrecherche \& Tutorium für Studenten. %\newline{}%
+\begin{itemize}
+\item Recherchearbeiten für Studie zu Arbeitsmarktreformen
+\item Lehrtätigkeit durch Tutorien für Studenten
+\end{itemize}}
+
+
+\cventry{8/2002 - 7/2003}{Nebenjob}{Shaver Construction, Inc.}{Reno, NV (USA)}{}{Dispatcher-Tätigkeiten. %\newline{}%
+\begin{itemize}
+\item Interne Unternehmensorganisation: Terminplanung, Koordination von Mitarbeitern, Dokumentenverwaltung
+\item Sekretariatsarbeiten
+\end{itemize}}
+
+
+
+\bigskip
+
+\section{Sprachkenntnisse}
+\cvline{Deutsch}{Muttersprache}
+\cvline{Englisch}{Verhandlungssicher in Wort und Schrift}
+\cvline{Französisch}{Verhandlungssicher in Wort und Schrift}
+\cvline{Russisch}{Grundkenntnisse}
+
+\bigskip
+
+\section{Schulbildung}
+\cvline{8/1992 - 7/2001}{Gymnasium Freiburg im Breisgau}
+\cvline{8/1988 - 7/1992}{Grundschule Freiburg im Breisgau}
+
+
+\bigskip
+
+
+\section{IT-Kenntnisse}
+\cvline{}{GNU/Linux}
+\cvline{}{MS Office Suite}
+\cvline{}{LaTeX}
+\cvline{}{Content Management Systeme (Joomla \& Contao)}
+
+\bigskip
+
+\section{Interessen}
+\renewcommand{\listitemsymbol}{-} % Das Aufzählungszeichen für die folgende Liste
+\cvlistdoubleitem{Linux}{Open Source Software}
+\cvlistdoubleitem{Klavier}{Fotographie}
+\cvlistdoubleitem{Literatur}{}
+
+
+\hspace{1.5cm}
+
+
+Berlin, \today\\ % Aktuelles Datum und Stadt
+
+\end{document}
+
+
+%% end of file `Lebenslauf_Template.tex'.

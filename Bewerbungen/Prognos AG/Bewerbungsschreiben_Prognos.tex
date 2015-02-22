@@ -1,0 +1,116 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ngerman}
+\usepackage[ngerman]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\usepackage[pdftex]{color}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Pascal}
+\def\familyname{Bernhard}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\definecolor{firstnamecolor}{RGB}{125,85,85}
+\definecolor{familynamecolor}{RGB}{138,74,57}
+\hypersetup{pdfborder=0 0 0}
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{familynamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Schwalbacher Straße 7\\
+	12161 Berlin\\[.35ex]
+	\Mobilefone~+49 162 32 39 557 \\
+	\Letter~\href{mailto:pascal.bernhard@belug.de}{pascal.bernhard@belug.de}
+\end{minipage}\\[0.5em]
+%
+{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	Prognos AG \\
+	Melanie Nogossek\\[.35ex]
+	% }}
+	\small%
+	Schwanenmarkt 21\\
+	40210 Düsseldorf
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+%	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+
+
+{\bfseries \color{familynamecolor}Bewerbung als Berater - Referenznummer WEI-11}\\[0.75em]
+
+Sehr geehrte Frau Nogossek,\\[0.5em]
+%
+ich bewerbe mich bei der Prognos AG als Berater.
+
+In meiner Mitarbeit in Ihrem Team \textsl{Wirtschaft, Energie, Infrastruktur} möchte ich meine vielfältigen Erfahrungen einbringen. Als Politikwissenschaftler habe ich viel mit den komplexen Zusammen­hängen zwischen Energiemärkten und politischen Entscheidungen zu tun gehabt. Dazu gehörte die Analyse von Entscheidungsprozessen in Wirtschaft und Politik sowie die Erarbeitung von Lösungskonzepten für Unternehmen unter Beachtung ihrer Rahmenbedingungen. Des Weiteren habe ich entscheidend mitgewirkt an Marktstudien und Wettbewerbsanalysen im Verkehrs- und Infrastruktursektor. Dies beinhaltete die Kommunikation von Vorschlägen zur Ausrichtung der unter­neh­merischen Geschäfts­strategie mit Berücksichtigung der regulativen Risiken und der möglichen Änderungen in der Politik.
+
+Verhandlungssichere Französisch- und Englischkenntnisse bringe ich dank mehrjähriger Auslandsaufenthalte in Frankreich und den USA mit.
+
+Analytisches Denk­ver­mögen zusammen mit einer gründlichen wissenschaftlichen Arbeitsweise zählen zu meinen besonderen Fähigkeiten. Dazu gehören die verständliche Kommunikation komplexer Inhalte und die Belast­barkeit, auch unter großem Zeitdruck erfolgreich zu arbeiten. Meine bisherigen Tätigkeiten und Erfahrungen bilden eine hervorragende Basis für eine Beratertätigkeit bei der Prognos AG.
+
+Meine Gehaltsvorstellungen liegen aufgrund meiner Qualifikation und Kenntnisse bei 45.000 Euro im Jahr. Ein zeitnaher Einstieg in Ihrem Unternehmen ist mir möglich.
+
+
+Für weitere Fragen stehe ich gerne zur Verfügung. Über ein persönliches Gespräch mit Ihnen freue ich mich sehr.
+
+  
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries \firstname~\familyname}\\
+%
+%\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Lebenslauf\\
+% Arbeitszeugnisse\\
+% Diplomzeugnis{}}
+\end{document}

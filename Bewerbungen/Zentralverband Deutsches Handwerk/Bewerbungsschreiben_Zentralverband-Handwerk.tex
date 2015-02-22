@@ -1,0 +1,118 @@
+
+\documentclass[11pt,a4paper]{article}
+\usepackage{ngerman}
+\usepackage[ngerman]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\usepackage[pdftex]{color}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Pascal}
+\def\familyname{Bernhard}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\definecolor{firstnamecolor}{RGB}{125,85,85}
+\definecolor{familynamecolor}{RGB}{138,74,57}
+\hypersetup{pdfborder=0 0 0}
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{familynamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Schwalbacher Straße 7\\
+	12161 Berlin\\[.35ex]
+	\Mobilefone~+49 162 32 39 557 \\
+	\Letter~\href{mailto:pascal.bernhard@rppr.de}{pascal.bernhard@rppr.de}
+\end{minipage}\\[0.5em]
+%
+{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	Zentralverband des Deutschen Handwerks \\
+	Frau Bettina Schlegtendal \\[.35ex]
+	% }}
+	\small%
+	Mohrenstraße 20/21\\
+	10117 Berlin
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+%	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+
+
+{\bfseries \color{familynamecolor}Bewerbung als Referent für Energie- und Umweltpolitik}\\[0.75em]
+
+Sehr geehrter Frau Schlegtendal,\\[0.5em]
+%
+ich bewerbe mich beim Zentralverband des Deutschen Handwerks als Referent.
+
+In meiner Mitarbeit als Referent möchte ich meine vielfältigen Erfahrungen einbringen. Als Politikwissenschaftler habe ich viel mit den komplexen Zusammen­hängen zwischen politischen Entscheidungen und der Entwicklung einzelner Branchen zu tun gehabt. Dazu gehörte die Analyse politischer Rahmenbedingungen für die Wirtschaft sowie die Kommunikation von Unternehmensbelangen durch Öffentlichkeitsarbeit. Des Weiteren waren energie- und umweltpolitische Fragen Schwerpunkt meines Studiums.
+
+Verhandlungssichere Englisch- und Französischkenntnisse bringe ich dank mehrjähriger Auslandsaufenthalte in den USA und Frankreich mit.
+
+
+Verantwortungsbewusstsein zusammen mit einer großen Einsatzbereitschaft zählen zu meinen besonderen Fähigkeiten. Hierzu gehören ebenfalls die verständliche Kommunikation komplexer Inhalte und der kontaktfreudige Umgang mit Menschen. Meine bisherigen Tätigkeiten und Erfahrungen im In- und Ausland bilden eine hervorragende Basis für eine Tätigkeit als Referent für Energie- und Umweltpolitik beim Zentralverband des Deutschen Handwerks.
+
+Meine Gehaltsvorstellungen liegen aufgrund meiner Qualifikation und Kenntnisse bei 40.000 Euro im Jahr.
+
+
+Für weitere Fragen stehe ich gerne zur Verfügung. Über ein persönliches Gespräch mit Ihnen freue ich mich sehr.
+
+  
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries \firstname~\familyname}\\
+%
+%\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Lebenslauf\\
+% Arbeitszeugnisse\\
+% Diplomzeugnis{}}
+\end{document}

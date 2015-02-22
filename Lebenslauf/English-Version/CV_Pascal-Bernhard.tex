@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Pascal} % Your first name
+\familyname{Bernhard} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Schwalbacher Strasse 7}{12161 Berlin, Germany}
+\mobile{(+49) 162 323 9557 }
+\phone{(+49) 30 32 66 58 00}
+%\fax{(000) 111 1113}
+\email{pascal.bernhard@belug.de}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+
+\photo[120pt]{sepia} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+%Spaltenbreite von \cvline ändern - zweiter Versuch
+\setlength{\hintscolumnwidth}{3.5cm} 
+
+
+
+
+\begin{document}
+
+%\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+% About me
+%----------------------------------------------------------------------------------------
+
+
+    \vspace*{\fill}
+    
+      \maketitle
+      \section{About me}
+	\cvline{Birthday}{April 8, 1982 in Berlin (West)}
+	\cvline{Studies}{Political Science}
+	\cvline{Experience abroad} {USA (2 years) \& Frankreich (3 years)}
+	\cvline{Languages}{English \& French (Conversationally fluent)}
+	\cvline{IT}{Linux, Office-Suite, \LaTeX, CMS (Contao, Joomla)}
+
+    \vspace*{\fill}
+
+
+
+\newpage
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2010--2014}{Masters of Political Science}{Free University of Berlin}{}{\textit{Grade: 1.3}}{Specialized in Energy Policy}  % Arguments not required can be left empty
+\cventry{2003--2005}{Bachelor of Political Science}{Free University of Berlin}{}{\textit{Grade: 1.6}}{Specialized in International Political Economy}
+
+\section{Masters Thesis}
+
+\cvitem{Title}{\emph{Energy Policy in the Baltic States -- Implementation of the EU's Third Liberalization Package for the Gas Market}}
+\cvitem{Supervisors}{Professor Miranda Schreurs \& Professor Manfred Kerner}
+\cvitem{Description}{The thesis explored the question why Lithuania and Latvia chose different unbundling models for their vertically integrated gas market. I found that political reasons, namely suspicion of Russian influence, rather than economic considerations, were crucial factors in the decision making process.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{2013--Present}{Personal Coaching}{}{Berlin}{}{Advise and support students in writing their bachelor and master thesis on a scientific level as well as structuring their work processes.
+\newline{}\newline{}
+Detailed tasks:
+\begin{itemize}
+\item Develop scientific questions and hypotheses for bachelor or master theses
+\item Select appropriate theoretical approaches 
+	\begin{itemize}
+	\item Evaluate different scientific methods on how best to answer the research question
+	\item Advise on which variables to select and how to operationalize them in the research process
+	\end{itemize}
+\item Structure the work flow of students and help overcome blockages and motivational issues
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2011--2013}{Student Trainee}{\textsc{SCI Verkehr GmbH}}{Berlin}{}{Assisting role in research tasks for market studies and client advice.
+\newline{}\newline{}
+Detailed tasks:
+\begin{itemize}
+\item Market research for the railway sector
+	\begin{itemize}
+	\item Analysis of the competitive situation for clients
+	\item Forecast of future market outlook for infrastructure and rolling stock
+	\end{itemize}
+\item Analysis of decision-making processes in the German, French and EU political systems
+\item Support in preparing market and client studies
+\end{itemize}}
+
+
+
+%------------------------------------------------
+
+\cventry{2008--2010}{Internship as Assistant Policy Advisor Europe}{\textsc{American Chamber of Commerce}}{Paris}{}{Support for market studies and administrative tasks.
+\newline{}\newline{}
+Detailed tasks:
+\begin{itemize}
+\item Research on PPP projects in the infrastructure and utilities sector in France
+	\begin{itemize}
+	\item Analysis of the regulative environment for investments in PPP projects
+	\end{itemize}
+\item Supportive role in negotiations between American clients and European business partners
+\item Writing press releases for targeted media
+\item Administrative tasks involving internal communication and coordinating schedules
+\end{itemize}}
+
+
+
+%------------------------------------------------
+
+
+%\subsection{Miscellaneous}
+
+%\cventry{2008--2009}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{German}{Mothertongue}{}
+\cvitemwithcomment{English}{Advanced}{Conversationally fluent}
+\cvitemwithcomment{French}{Advanced}{Conversationally fluent}
+\cvitemwithcomment{Russian}{Basic}{Basic words and phrases only}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{\LaTeX, CMS \textsl{Joomla, Contao}}
+\cvitem{Intermediate}{MS Office, GNU/Linux, Microsoft Windows}
+\cvitem{Intermediate}{Computer Hardware and Support}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Piano}{History}
+\cvlistdoubleitem{Open Source Software}{GNU/Linux}
+\cvlistitem{Fitness}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

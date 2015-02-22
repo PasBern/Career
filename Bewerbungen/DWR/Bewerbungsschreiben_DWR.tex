@@ -1,0 +1,116 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ngerman}
+\usepackage[ngerman]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\usepackage[pdftex]{color}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Pascal}
+\def\familyname{Bernhard}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\definecolor{firstnamecolor}{RGB}{56,115,179}
+\definecolor{familynamecolor}{RGB}{56,115,179}
+\hypersetup{pdfborder=0 0 0}
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{familynamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Schwalbacher Straße 7\\
+	12161 Berlin\\[.35ex]
+	\Mobilefone~+49 162 32 39 557 \\
+	\Letter~\href{mailto:pascal.bernhard@rppr.de}{pascal.bernhard@rppr.de}
+\end{minipage}\\[0.5em]
+%
+{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	\textbf{DWR eco GmbH} \\
+	Frau Anne Großmann \\[.35ex]
+	% }}
+	\small%
+	Sophienstraße 16\\
+	10178 Berlin
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+%	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+
+
+{\bfseries \color{familynamecolor}Initiativbewerbung als Berater}\\[0.75em]
+
+Sehr geehrter Frau Großmann,\\[0.5em]
+%
+ich bewerbe mich bei der DWR eco GmbH als Berater für Energiepolitik.
+
+Welche Folgen ergeben sich für Energieunternehmen, wenn Marktliberalisierung gesellschaftlich unerwünschte Effekte zeigt und Politiker Wählerstimmen gewinnen wollen? Wieso folgt Energiepolitik nicht wirtschaftlicher Logik oder den Erfordernissen des Klimaschutzes? Der Ukraine-Russland Konflikt stellt die Versorgungssicherheit mit Erdgas in Frage, jedoch fehlt es weiterhin an einer gemeinsamen europäische Energiepolitik? Einfache Antworten auf diese Fragen habe ich ganz offen gesagt auch nicht. Aber als Politikwissenschaftler kann ich die komplexen Zusammenhänge zwischen Energiemärkten und politischen Entscheidungen durchdringen und Lösungskonzepte für Unternehmen erarbeiten.
+
+Während meines Studiums habe ich mich auf Energiepolitik spezialisiert und mich intensiv mit den gesellschaftspolitischen Rahmenbedingen für Energieunternehmen beschäftigt. Als Politikwissenschaftler war ich zu den komplexen Zusammenhängen zwischen Märkten, insbesondere der Energiebranche, und politischen Entscheidungen befasst. An der AmCham in Paris habe ich als Assistant Policy Advisor politische Prozesse auf europäischer Ebene analysiert und wie in Berlin bei der Unternehmensberatung SCI Verkehr an Marktstudien und Wettbewerbsanalysen im Verkehrs- und Infrastruktursektor mitgearbeitet. Dies beinhaltete die Kommunikation von Vorschlägen zur Ausrichtung der Investitionsstrategie mit Berücksichtigung der regulativen Risiken.
+
+
+Meinen eingeschlagenen Weg als analytisch denkender Problemlöser will ich nun, nach erfolgreichem Ende des Studiums, gerne zusammen mit Ihnen fortsetzen.
+Die Möglichkeit, meine Erfahrungen als Politikwissenschaftler bei der Vermittlung komplexer Inhalte und konkreter Vorschläge bei der DWR eco GmbH einzubringen, reizt mich sehr. Meine bisherigen Tätigkeiten im In- und Ausland und die erworbenen Kompetenzen bilden eine hervorragende Basis für eine Tätigkeit als Consultant für Energiewirtschaft in ihrer Unternehmensberatung.
+
+
+Ich freue mich darauf, Sie in einem persönlichen Gespräch kennenzulernen.
+
+  
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries \firstname~\familyname}\\
+%
+%\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Lebenslauf\\
+% Arbeitszeugnisse\\
+% Diplomzeugnis{}}
+\end{document}
