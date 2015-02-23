@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.30)  22 FEB 2015 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.30)  22 FEB 2015 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lebenslauf_Pascal-Bernhard.tex
-(./Lebenslauf_Pascal-Bernhard.tex
+**Lebenslauf_Pascal-Bernhard_Jobcenter.tex
+(./Lebenslauf_Pascal-Bernhard_Jobcenter.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 37 languages loaded.
 (/usr/share/texmf-dist/tex/latex/moderncv/moderncv.cls
@@ -795,8 +795,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 65.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 65.
 
-(./Lebenslauf_Pascal-Bernhard.aux)
-\openout1 = `Lebenslauf_Pascal-Bernhard.aux'.
+(./Lebenslauf_Pascal-Bernhard_Jobcenter.aux)
+\openout1 = `Lebenslauf_Pascal-Bernhard_Jobcenter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
@@ -911,9 +911,10 @@ LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
 
-(./Lebenslauf_Pascal-Bernhard.out) (./Lebenslauf_Pascal-Bernhard.out)
+(./Lebenslauf_Pascal-Bernhard_Jobcenter.out)
+(./Lebenslauf_Pascal-Bernhard_Jobcenter.out)
 \@outlinefile=\write4
-\openout4 = `Lebenslauf_Pascal-Bernhard.out'.
+\openout4 = `Lebenslauf_Pascal-Bernhard_Jobcenter.out'.
 
 \makecvtitlepicturebox=\box57
 
@@ -1064,10 +1065,6 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 219.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 36.71997pt.
@@ -1075,46 +1072,31 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 231.
 [3]
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 36.71997pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 231.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 231.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 231.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 231.
-[4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
- (./Lebenslauf_Pascal-Bernhard.aux)
+ (./Lebenslauf_Pascal-Bernhard_Jobcenter.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
-Package rerunfilecheck Info: File `Lebenslauf_Pascal-Bernhard.out' has not chan
-ged.
+Package rerunfilecheck Info: File `Lebenslauf_Pascal-Bernhard_Jobcenter.out' ha
+s not changed.
 (rerunfilecheck)             Checksum: 44B2F94CD9A12861E7AB4C2B688BF1F7;1964.
  ) 
 Here is how much of TeX's memory you used:
- 27152 strings out of 494336
- 497351 string characters out of 6163213
- 569179 words of memory out of 5000000
+ 27151 strings out of 494336
+ 497475 string characters out of 6163213
+ 569259 words of memory out of 5000000
  29986 multiletter control sequences out of 15000+600000
  50059 words of font info for 57 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
- 76i,12n,60p,10378b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,12n,60p,10388b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lms
 s10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/share/tex
@@ -1123,10 +1105,11 @@ lic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></
 usr/share/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf-dist/f
 onts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/marvo
 sym/marvosym.pfb>
-Output written on Lebenslauf_Pascal-Bernhard.pdf (4 pages, 238833 bytes).
+Output written on Lebenslauf_Pascal-Bernhard_Jobcenter.pdf (3 pages, 238379 byt
+es).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
  15994 words of extra memory for PDF output out of 17280 (max. 10000000)
 
