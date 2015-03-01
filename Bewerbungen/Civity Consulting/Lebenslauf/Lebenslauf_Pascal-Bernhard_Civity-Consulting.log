@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.30)  1 MAR 2015 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.30)  1 MAR 2015 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1033,6 +1033,10 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 119.
 
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+
+ []
+
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 36.71997pt.
@@ -1105,11 +1109,11 @@ Package rerunfilecheck Info: File `Lebenslauf_Pascal-Bernhard_Civity-Consulting
 (rerunfilecheck)             Checksum: 44B2F94CD9A12861E7AB4C2B688BF1F7;1964.
  ) 
 Here is how much of TeX's memory you used:
- 27152 strings out of 494336
- 497585 string characters out of 6163213
+ 27154 strings out of 494336
+ 497609 string characters out of 6163213
  569323 words of memory out of 5000000
  29986 multiletter control sequences out of 15000+600000
- 50059 words of font info for 57 fonts, out of 8000000 for 9000
+ 50160 words of font info for 58 fonts, out of 8000000 for 9000
  372 hyphenation exceptions out of 8191
  76i,13n,60p,10396b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -1121,7 +1125,7 @@ usr/share/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf-dist/f
 onts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/marvo
 sym/marvosym.pfb>
 Output written on Lebenslauf_Pascal-Bernhard_Civity-Consulting.pdf (4 pages, 23
-9534 bytes).
+9615 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
