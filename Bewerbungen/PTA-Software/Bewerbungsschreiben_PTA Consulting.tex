@@ -1,0 +1,116 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ngerman}
+\usepackage[ngerman]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\usepackage[pdftex]{color}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Pascal}
+\def\familyname{Bernhard}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+\definecolor{firstnamecolor}{RGB}{56,115,179}
+\definecolor{familynamecolor}{RGB}{56,115,179}
+\hypersetup{pdfborder=0 0 0}
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{familynamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Schwalbacher Straße 7\\
+	12161 Berlin\\[.35ex]
+	\Mobilefone~+49 162 32 39 557 \\
+	\Letter~\href{mailto:pascal.bernhard@rppr.de}{pascal.bernhard@rppr.de}
+\end{minipage}\\[0.5em]
+%
+{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	\textbf{PTA GmbH} \\
+	Herr Matthias Wossidlo\\[.35ex]
+	% }}
+	\small%
+	XXXXXXXX\\
+	10178 Berlin
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+
+
+{\bfseries \color{familynamecolor}Berater im Projektmanagement -- Kennziffer stp\_H\_2015}\\[0.75em]
+
+Sehr geehrter Herr Wossidlo,\\[0.5em]
+%
+
+ich bewerbe mich bei der PTA GmbH als Unternehmensberater.
+
+Als Politikwissenschaftler habe ich ein ausgeprägtes Verständnis der komplexen Zusammenhängen zwischen politischen Entscheidungen und Märkten entwickelt. In meinen Tätigkeiten an der AmCham in Paris und der Unternehmensberatung SCI Verkehr in Berlin habe ich Entscheidungsprozesse in Wirtschaft und Politik analysiert sowie an quantitativen Marktstudien und Wettbewerbsanalysen im Verkehrs- und Infrastruktursektor mitgearbeitet. Dies beinhaltete die Ausarbeitung von Lösungen zur Ausrichtung der Unternehmensstrategie mit Berücksichtigung regulativer Risiken. An der Kommunikation dieser Vorschläge war ich ebenfalls aktiv beteiligt.
+
+Aus persönlichem Interesse beschäftige ich mich 
+Meinen eingeschlagenen Weg als analytisch denkender Problemlöser möchte ich nun, nach erfolgreichem Ende des Studiums, gerne zusammen mit Ihnen fortsetzen. Mich reizt es, meine Kompetenzen als Coach und Berater bei der gemeinsamen Entwicklung von Lösungen in Ihrer Unternehmensberatung einbringen und ausbauen zu können. Die im In- und Ausland erworbenen Erfahrungen bilden eine hervorragende Basis für eine Tätigkeit bei Ihnen.
+
+
+Einem baldigen Einstieg bei Ihnen steht nichts entgegen.
+
+Ich freue mich darauf, mehr über diese Stelle zu erfahren und Sie persönlich kennenzulernen.
+
+  
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries \firstname~\familyname}\\
+%
+%\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Lebenslauf\\
+% Arbeitszeugnisse\\
+% Diplomzeugnis{}}
+\end{document}
