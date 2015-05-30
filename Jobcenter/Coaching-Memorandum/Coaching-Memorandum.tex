@@ -5,6 +5,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{marvosym}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{textcomp}
 \usepackage{pifont}
 \usepackage{ifpdf}
 \usepackage[pdftex]{color}
@@ -46,6 +48,27 @@
 \definecolor{firstnamecolor}{RGB}{56,115,179}
 \definecolor{familynamecolor}{RGB}{56,115,179}
 \hypersetup{pdfborder=0 0 0}
+
+% Gleiche Schriftart für Hyperlinks
+\urlstyle{same}
+
+
+%  Gefrickel um URL-Links vernünftig umzubrechen
+\makeatletter
+\g@addto@macro\UrlBreaks{
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\&\do\1\do\2\do\3
+  \do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+% \def\do@url@hyp{\do\-}
+
+% Hiermit soll einer übervolle Box verhindert werden -- funktioniert sogar irgendwie
+\g@addto@macro\UrlSpecials{\do\/{\mbox{\UrlFont/}\hskip 0pt plus 1pt}}
+\makeatother
+
+% Farben werden hier definiert
+\definecolor{MidnightBlue}{RGB}{0,103,149}
+
 
 \begin{document}
 \sffamily   % for use with a résumé using sans serif fonts;
@@ -96,50 +119,141 @@ im Folgenden stelle ich Ihnen Kompetenzen und Aufgabenbereich des Berufsbilds \t
 
 \subsection*{\textsf{Coach -- ein vielseitiges Berufsbild}}
 
-\textsl{Coaching} ist eine sehr individualisierte Beratung, die es Menschen ermöglichen soll, ihre berufliche Rolle und Aufgaben bestmöglich zu erfüllen und hierbei auch persönlich zu fördern. Für die personal-strategische Zielsetzung von Unternehmen bedeutet dies, ihre Mitarbeiter mit Hilfe von internen oder externen Coaches zu weiterzuentwickeln, dass sie auch die an sie gestellten Anforderungen in Zukunft erfüllen können. Der Coach selbst soll Einzelne Mitarbeiter oder Teams zu bester Leistung führen ohne jedoch selbst an der Ausführung beteiligt zu sein, er gibt Impulse und zeigt neue Wege auf. 
+
+\textsl{Coaching} ist eine sehr individualisierte Beratung, die es Menschen ermöglichen soll, ihre (berufliche) Rolle und Aufgaben bestmöglich zu erfüllen und hierbei auch persönlich zu fördern. Der Coach soll einzelne Mitarbeiter oder Teams zu bester Leistung führen ohne jedoch selbst an der Ausführung beteiligt zu sein, er gibt Impulse und zeigt neue Wege auf. Es gibt viele unterschiedliche Coaching-Arten, die vom Leistungssport, dem Ursprung des Coaching, über das Personal-Coaching zur Erreichung persönlicher Lebensziele zum Führungskräfte-Coaching reichen. Als Politikwissenschaftler, der gelernt hat in Strukturen zu denken und komplexe Zusammenhänge zu erfassen, strebe ich eine Karriere auf dem Feld des funktionellen oder systemischen Coaching zur Organisationsentwicklung an. Im Unterschied zu Personal-Coaches bestehen im systemischen Coaching die Möglichkeiten als interne Berater fest für ein Unternehmen angestellt arbeiten. Eine Karriere auf freiberuflicher Basis als externer Coach, welcher von Firmen für konkrete Coaching-Anlässe engagiert wird, steht ebenfalls offen. Für die personal-strategische Zielsetzung von Unternehmen haben Coaches die Aufgabe, Mitarbeiter zu weiterzuentwickeln, so dass sie auch die an sie gestellten Anforderungen in Zukunft erfüllen können. Coaching-Kompetenzen gewinnt auch in anderen beruflichen Rollen an Bedeutung bzw. verändert diese Rollen innerhalb von Unternehmen und Organisationen: Personalentwickler, Projektleiter, Unternehmensberater profitieren ebenfalls von Coaching-Kompetenzen in der Teamarbeit und Mitarbeiterführung.
+
+\newpage
+
 \paragraph{\textsf{Anlässe für Coaching}}
 \begin{itemize}
-\item Veränderungen in der Personalstruktur eines Unternehmens
+\item \textbf{Veränderungen in der Personalstruktur eines Unternehmens}
 
 	\begin{itemize}
 	\item Mitarbeiter werden neuen Abteilungen zugeordnet und müssen sich in neuen Teams zurechtfinden
-	\item Durch Beförderung oder Arbeitsplatzwechsel steht die betreffende Personen vor\\
+	\item Durch Beförderung oder Arbeitsplatzwechsel steht die betreffende Personen vor neuen Aufgaben\\
 	\ding{225} neue Soft-Skills werden von den Mitarbeitern verlangt
 	\end{itemize}
 
-\item Fusionen und Übernahmen
+\item \textbf{Fusionen und Übernahmen}
 
 	\begin{itemize}
 	\item Unterschiedliche Unternehmenskulturen müssen zusammengeführt werden
 
 		\begin{itemize}
-		\item Zuständigkeiten und Aufgabengebiete in der neuen Unternehmensstruktur sind festzulegen\\
+		\item[\textbullet] Zuständigkeiten und Aufgabengebiete in der neuen Unternehmensstruktur sind festzulegen\\
 		\ding{225} neue Rollen des Personals müssen zuerst definiert werden\\
 		\ding{225} Mitarbeiter stehen vor der Herausforderung, sich in ihren neuen Rollen zurechtzufinden
 		\end{itemize}
 
-\item Strategische Neuausrichtung eines Konzerns
+	\item Strategische Neuausrichtung eines Konzerns
 
-	\begin{itemize}
-	\item \textsl{Change Management} -- \textsl{Turn-Around} -- \textsl{Rationalisierung \& Sparmaßnahmen}
-	\end{itemize}
+		\begin{itemize}
+		\item[\textbullet] \textsl{Change Management} -- \textsl{Turn-Around} -- \textsl{Rationalisierung \& Sparmaßnahmen}\\
+		\ding{225} Anforderungen an Mitarbeiter verändern sich teilweise grundlegend\\
+		\ding{225} Personal muss lernen, mit reduzierten Ressourcen (Arbeitszeit / Budget) umzugehen\\
+		\ding{225} Kompetenzen für effizienteres Arbeiten sind gefragt\\
+		\ding{225} Neue Problemlösungsstrategien müssen erlernt werden\\
+		\ding{225} Kritische Selbstreflexion zu eigener Arbeitsweise, Gruppendynamiken, Feed-Back--Mechanismen, Führungsstil
+		\end{itemize}
 
 
 	\end{itemize}
 \end{itemize}
 
+\subsection*{\textsf{Ausbildung zum Coach}}
+
+Da der Begriff \textsl{Coach} nicht rechtlich geschützt ist und es hierbei nicht um einen klassischen Ausbildungsberuf handelt, kann sich jede und jeder selbst als 'Coach' bezeichnen. So hat eine vom Deutschen Bundesverband Coaching (DVBC) zertifizierte Ausbildung und darauffolgende Anerkennung als qualifizierter Coach einen hohen Stellenwert in der Branche. Für den Berufseinstieg im Anschluss an die Ausbildung sind die Mitgliedschaft im Branchenverband\footnote{Deutscher Bundesverband Coaching e.V.\\ \textcolor{MidnightBlue}{\url{http://www.dbvc.de/aufnahme-in-den-dbvc/mitgliedschaftsformen.html}}} und die Aufnahme in Deutschlands bedeutendste Coaching-Datenbank, die \textsl{Rauen Coach-Datenbank} entscheidend\footnote{Rauen Datenbank:\\\textcolor{MidnightBlue}{http://www.coach-datenbank.de/aufnahme\_in\_die\_coach-datenbank.htm}}. 
+
+\subsubsection*{\textsf{Inhalte der Coaching-Ausbildung}}
+
+Eine Coaching-Ausbildung baut auf bestehenden fachspezifischen Kompetenzen auf, die im Zuge der Weiterqualifizierung mit neuen Fähigkeiten und Wissen verknüpft werden, so dass Coaches ein umfassendes Repertoire aus persönlichen und fachlichen Kompetenzen anbieten können. Grundlegende Voraussetzung für eine Ausbildung ist ein erfolgreich abgeschlossenes Studium der Sozialwissenschaften: die meisten Coaches kommen aus den Bereichen Psychologie, Betriebswirtschaft und Politikwissenschaft. Das zuvor im Studium erworbene fachliche Wissen und entsprechende Methoden zur Problemanalyse und -lösung bieten die Grundlage mit einer Qualifikation als Coach in dieser Branche tätig zu sein, da Aufgaben und Inhalte der Arbeit der gecoachten Personen vertraut sind.
+
+\paragraph*{\textsf{Ziele einer Ausbildung zum systemischen Coach}}
 
 
-  
-%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
-%Mit freundlichen Grüßen,\\[2em] % if the opening is "Dear Sir or Madam,"
-%
-%\includegraphics[scale=0.75]{signature_blue}\\
-%{\bfseries \firstname~\familyname}\\
-%
-%\vfill%
-%{\slshape \bfseries Bewerbungsunterlagen}\\
-% {\slshape Lebenslauf\\
-% Arbeitszeugnisse\\
-% Diplomzeugnis{}}
+\begin{itemize}
+
+\item Theorien zu Lernen und Veränderung auf Grundlage von Konstruktivismus, Systemtheorie, Gestaltpsychologie, Mediation und Humanistischer Psychologie
+
+	\begin{itemize}
+		\item Vermittlung von Interventionsmethoden, um Klienten bei persönlicher Veränderung zu unterstützen
+		\item erlernte Interventionstechniken mit Analysefähigkeiten verknüpfen, welche im Studium erworben wurden, um Unternehmen bei organisationellen Veränderungsprozessen zu beraten
+	\end{itemize}
+
+
+\item Erlernen unterschiedlicher Coachingansätze und insbesondere die Entwicklung eines persönlichen Coaching-Stils basierend auf individuellen fachlichen Kompetenzen\\
+\ding{225} gezielte Profilierung als systemischer Coach
+
+\item Projektmanagement im Kontext von Mitarbeiterführung und \textsl{Change Management}
+
+\item Aufbau eines Netzes an Kontakten während der Coaching-Ausbildung
+
+\item Unterstützung für die Aufnahme als Mitglied im Deutschen Bundesverband Coaching e.V. (DBVC)
+
+
+\paragraph*{\textsf{Neue Kompetenzen durch eine Coaching-Ausbildung}}
+
+\begin{enumerate}
+\item Fähigkeit, emotionale und kognitive Selbstorganisation anzuregen
+\item sog. \textsl{integriertes Organisationswissen} entwickeln: Kenntnisse aus dem Politikstudium zu komplexen Entscheidungsprozessen mit Inhalten der Ausbildung zu Gruppendynamiken, Psychologie und Lerntechniken verknüpfen und auf einen organisationellen Kontext anwenden
+\item über die Analyse der Ziele und Anforderungen von Unternehmen hinausgehend diese in der Arbeitsweise der Mitarbeiter zu verankern\\
+\ding{225} auf professionellem Niveau Hilfe zur Selbsthilfe geben zu können
+\item während Ausbildung durch branchenspezifische Interventionsübungen und 'Case-Studies' Erfahrung in Beratung und Organisationsentwicklung gewinnen
+\item Erwerb der Kompetenz professioneller Auftragsabwicklung
+\end{enumerate}
+
+\end{itemize}
+
+
+\subsection*{\textsf{Aktuelle Stellenangebote im Bereich Coaching}}
+
+
+\begin{itemize}
+\item 
+\end{itemize}
+
+
+\subsection*{\textsf{Ausbildungen zu systemischem Coaching}}
+
+
+
+\begin{itemize}
+\item \textbf{artop GmbH} Institut an der Humboldt Universität zu Berlin: \textsl{Ausbildung zum Coach}\\
+Die Coaching-Ausbildung wendet sich an einen Personenkreis aus Personalentwicklern, Unternehmensberatern, Führungskräften und Quereinsteigern. Absolventen der artop-Ausbildung zum Coach erhalten das Zertifikat „Systemischer Coach“ nach Teilnahme an den Seminareinheiten (mindestens 80\% Anwesenheit), dem Nachweis zweier eigenständig absolvierter Coachingprozesse, des Lehrcoachings und der Fallpräsentation auf dem Abschlusskolloquium. Die Ausbildung ist zertifiziert vom Deutschen Bundesverband Coaching e.V. Der Ausbildungsgang ist von der Senatsverwaltung für Arbeit, Integration und Frauen Berlin gemäß des Berliner Bildungsurlaubsgesetzes als Bildungsveranstaltung anerkannt. 
+
+Ausbildung findet an 22 Wochenenden statt
+	\begin{itemize}
+	\item \textbf{Module der Ausbildung:}
+		
+		\begin{enumerate}
+		\item Grundlagen des Coachings
+		\item Systemtheorie und systemisches Coaching
+		\item Auftragsklärung im Coaching
+		\item Testverfahren im Coaching
+		\item Gruppendynamische Selbsterfahrung
+		\item Einzelcoaching I
+		\item Einzelcoaching II
+		\item Gestaltmethoden
+		\item Aufstellungsarbeit im Coaching
+		\item Konfliktcoaching
+		\item Mein Profil als Coach
+		\item Coaching im Kontext von Teamentwicklung und Organisationsberatung
+		\item Abschlusskolloquium
+		\end{enumerate}
+	
+	\item \textbf{Dauer}
+
+		\begin{itemize}
+		\item voraussichtlich (Termin stehen laut Webseite noch nicht fest): November 2015 bis März 2017
+		\end{itemize}
+
+	\item \textbf{Kosten der Ausbildung:} für Privatpersonen 7.900 Euro /für Unternehmen 9.500 Euro
+
+	\item \textbf{Bewerbungsverfahren:} Die Auswahl der Teilnehmer erfolgt über eine schriftliche Bewerbung mittels tabellarischem Lebenslauf, dem ein sog. 'Potenzialgespräch' zu Eignung und Lernziele der Ausbildung folgt.
+	\end{itemize}
+
+\end{itemize}
+
+
+
 \end{document}
