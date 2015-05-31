@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.24)  31 MAY 2015 20:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.24)  31 MAY 2015 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -618,66 +618,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Coaching-Logo_1280-720.j
 pg>]
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 129
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 131
 .
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 165.
+(Font)              <9> on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 165.
+(Font)              <5> on input line 167.
  [2]
-Overfull \hbox (3.7718pt too wide) in paragraph at lines 191--192
+Overfull \hbox (3.7718pt too wide) in paragraph at lines 193--194
 []\T1/lmss/m/n/10.95 Unterstützung für die Auf-nah-me als Mit-glied im Deut-sch
 en Bun-des-ver-band Coa-ching e.V. (DBVC) 
  []
 
-(/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
+[3] (/usr/share/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [3] [4]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+
+ []
+
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
-) [5] [6]
-Overfull \hbox (13.98613pt too wide) in paragraph at lines 334--335
+)
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+ []
+
+[5] [6]
+Overfull \hbox (13.98613pt too wide) in paragraph at lines 339--340
 \T1/lmss/m/n/10.95 n-[]B e r l i n -[]F r a n k f u r t-[]M u e n c h e n -[]RW
 E-[]C o n s u l t i n g -[]G m bH-[]-[] 3 3 2 0 8 2 9 -[] i n l i n e . h t m l
  ? c i d =J a J o b-[] j a p u-[] h o m
  []
 
 
-Overfull \hbox (0.54051pt too wide) in paragraph at lines 334--335
+Overfull \hbox (0.54051pt too wide) in paragraph at lines 339--340
 \T1/lmss/m/n/10.95 e p a g e-[] 0 5-[] 2 0 1 5 _ p s _ 1 _ 4 _ o ^^[ e r t i t 
 l e & j a c i d = 8 3 8 5 1 9 3 -[] 0 5-[] 2 0 1 5 & n c t i d = 2 0 1 5 0 5 2 
 8 & i n t c i d = JA t e s t _
  []
 
 
-Overfull \hbox (9.51752pt too wide) in paragraph at lines 345--347
+Overfull \hbox (9.51752pt too wide) in paragraph at lines 350--352
 \T1/lmss/m/n/10.95 e r -[]M u e l h e i m -[] a n-[] d e r -[]R u h r -[]ALDI-[
 ]SU e D-[]-[] 3 3 2 8 7 0 5 -[] i n l i n e . h t m l ? i sHJ = f a l s e & i s
  HJR = f a l s e & s s aPOP =
  []
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
  [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  (./Coaching-Memorandum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `Coaching-Memorandum.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
  9699 strings out of 494336
  132647 string characters out of 6163214
- 237131 words of memory out of 5000000
+ 236131 words of memory out of 5000000
  12733 multiletter control sequences out of 15000+600000
  64419 words of font info for 59 fonts, out of 8000000 for 9000
  373 hyphenation exceptions out of 8191
- 29i,8n,30p,1657b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,30p,1064b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
 nts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10
 .pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-di
@@ -686,10 +700,10 @@ lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/te
 xmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></
 usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Coaching-Memorandum.pdf (8 pages, 614476 bytes).
+Output written on Coaching-Memorandum.pdf (8 pages, 614844 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 180 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  59 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
