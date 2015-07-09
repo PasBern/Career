@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.21)  5 JUL 2015 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.21)  9 JUL 2015 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,13 +614,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 109
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 110
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
@@ -628,37 +628,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Pipeline.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 159.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 177.
 
-[2] [3] <Pipelines.png, id=29, 624.83438pt x 558.58687pt>
+[2] [3] [4] <Pipelines.png, id=35, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
- <use Pipelines.png>
-Package pdftex.def Info: Pipelines.png used on input line 239.
+
+<use Pipelines.png>
+Package pdftex.def Info: Pipelines.png used on input line 292.
 (pdftex.def)             Requested size: 463.06494pt x 413.97855pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 241.
+(Font)              <10> on input line 294.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 241.
+(Font)              <7> on input line 294.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 241.
+(Font)              <5> on input line 294.
+ [5 <./Pipelines.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
 
-[4 <./Pipelines.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
- (./Memorandum - Energie_Baltikum.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+(./Memorandum - Energie_Baltikum.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
 Package rerunfilecheck Info: File `"Memorandum - Energie_Baltikum".out' has not
  changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 8819 strings out of 494336
- 123737 string characters out of 6163214
- 218043 words of memory out of 5000000
- 11905 multiletter control sequences out of 15000+600000
+ 8825 strings out of 494336
+ 123795 string characters out of 6163214
+ 218183 words of memory out of 5000000
+ 11908 multiletter control sequences out of 15000+600000
  73823 words of font info for 66 fonts, out of 8000000 for 9000
  373 hyphenation exceptions out of 8191
  29i,6n,30p,739b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -669,11 +670,11 @@ ist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
 lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr
 /share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/font
 s/type1/urw/zapfding/uzdr.pfb>
-Output written on "Memorandum - Energie_Baltikum.pdf" (5 pages, 2113301 bytes).
+Output written on "Memorandum - Energie_Baltikum.pdf" (6 pages, 2116075 bytes).
 
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
