@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.21)  10 JUL 2015 12:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.6.21)  23 JUL 2015 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,7 +658,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
 Here is how much of TeX's memory you used:
  8825 strings out of 494336
  123795 string characters out of 6163214
- 218183 words of memory out of 5000000
+ 218315 words of memory out of 5000000
  11908 multiletter control sequences out of 15000+600000
  73823 words of font info for 66 fonts, out of 8000000 for 9000
  373 hyphenation exceptions out of 8191
@@ -670,7 +670,7 @@ ist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/
 lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr
 /share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/font
 s/type1/urw/zapfding/uzdr.pfb>
-Output written on "Memorandum - Energie_Baltikum.pdf" (6 pages, 2116084 bytes).
+Output written on "Memorandum - Energie_Baltikum.pdf" (6 pages, 2116315 bytes).
 
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
