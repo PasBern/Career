@@ -1,0 +1,46 @@
+ver: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.41-0+deb7u1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: Sameorigin
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-src *; img-src *; font-src 'self' data:; media-src *
+X-Robots-Tag: none
+Content-Length: 354
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre\DAV\Exception\NotFound</s:exception>
+  <s:message>File with name Career/Bewerbungen/Miller &amp; Meier Consulting/Lebenslauf/sepia online.jpg could not be located</s:message>
+  <s:sabredav-version>1.8.10</s:sabredav-version>
+</d:error>
+HTTP/1.1 404 Not Found
+Date: Sun, 21 Jun 2015 18:50:35 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.41-0+deb7u1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Frame-Options: Sameorigin
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-src *; img-src *; font-src 'self' data:; media-src *
+X-Robots-Tag: none
+Content-Length: 351
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: application/xml; charset=utf-8
+
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre\DAV\Exception\NotFound</s:exception>
+  <s:message>File with name Career/Bewerbungen/Miller &amp; Meier Consulting/Lebenslauf/sw online.jpg could not be located</s:message>
+  <s:sabredav-version>1.8.10</s:sabredav-version>
+</d:error>

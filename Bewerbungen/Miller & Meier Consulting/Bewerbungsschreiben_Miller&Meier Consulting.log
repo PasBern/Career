@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.26)  26 JUL 2015 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.26)  17 SEP 2015 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2015/01/01> patch level 2
 Babel <3.9l> and hyphenation patterns for 37 languages loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -335,8 +335,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen122
 \Gm@layoutvoffset=\dimen123
 \Gm@dimlist=\toks26
-)
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (654.90614pt) is ignored.
+
+) (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -549,22 +553,22 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(67.22147pt, 463.06494pt, 67.22147pt)
-* v-part:(T,H,B)=(76.05627pt, 654.90614pt, 114.08443pt)
+* v-part:(T,H,B)=(34.14322pt, 776.7604pt, 34.14322pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=463.06494pt
-* \textheight=654.90614pt
+* \textheight=776.7604pt
 * \oddsidemargin=-5.04852pt
 * \evensidemargin=-5.04852pt
-* \topmargin=-33.21371pt
+* \topmargin=-75.12677pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -598,7 +602,7 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 53.
 (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
 
 (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
@@ -607,51 +611,56 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 LaTeX Font Info:    Try loading font information for U+mvs on input line 62.
 
 (/usr/share/texmf-dist/tex/latex/marvosym/umvs.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 55--88
+Underfull \hbox (badness 10000) in paragraph at lines 55--89
 
  []
 
+<Unterschrift.png, id=5, 386.19281pt x 184.43906pt>
+File: Unterschrift.png Graphic file (type png)
+ <use Unterschrift.png>
+Package pdftex.def Info: Unterschrift.png used on input line 113.
+(pdftex.def)             Requested size: 57.9264pt x 27.66466pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 111--121
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Unterschrift.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--119
-
- []
-
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
- (./Bewerbungsschreiben_Miller&Meier Consulting.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+(./Bewerbungsschreiben_Miller&Meier Consulting.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `"Bewerbungsschreiben_Miller&Meier Consulting
 ".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 114 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 8731 strings out of 494322
- 122710 string characters out of 6163317
- 218255 words of memory out of 5000000
- 11864 multiletter control sequences out of 15000+600000
- 32943 words of font info for 41 fonts, out of 8000000 for 9000
+ 8739 strings out of 494322
+ 122781 string characters out of 6163317
+ 219249 words of memory out of 5000000
+ 11868 multiletter control sequences out of 15000+600000
+ 35421 words of font info for 41 fonts, out of 8000000 for 9000
  373 hyphenation exceptions out of 8191
- 29i,5n,30p,1102b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
-nts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lms
-sbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/
-texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on "Bewerbungsschreiben_Miller&Meier Consulting.pdf" (2 pages, 8
-2360 bytes).
+ 29i,5n,30p,1013b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
+/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1
+/public/lm/lmss9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
+</usr/share/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/share/texmf-dist/
+fonts/type1/public/marvosym/marvosym.pfb>
+Output written on "Bewerbungsschreiben_Miller&Meier Consulting.pdf" (1 page, 99
+898 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
